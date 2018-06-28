@@ -1,4 +1,5 @@
 ## ToDo App
+*Training project*
 
 Console app in Node.js, store and manage task status in a local JSON
 
