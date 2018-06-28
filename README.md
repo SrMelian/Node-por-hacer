@@ -1,17 +1,17 @@
 ## ToDo App
 
-Aplicación de comandos en Node.js que almacena y gestiona estados de tareas por hacer en un archivo JSON local
+Console app in Node.js, store and manage task status in a local JSON
 
-## Pasos previos
+## Previous steps
 
-Ejecutar ```$ npm install``` para instalar liberías.
+Run the command ```$ npm install``` to install the packages
 
-## Comandos
+## Commands
 
-| **Comando / Parámetro** | **Descripción** | **Ejemplo**|
+| **Command / Param** | **Description** | **Example**|
 | ------ | ------ | ------ |
-| crear | Crea un elemento por hacer con estado a false por defecto | - |
-| &nbsp;&nbsp;&nbsp;&nbsp;--descripcion, -d | *[Requerido]* Identificación de la tarea por hacer | ```$ node app crear -d "Hacer la compra"``` |
-| actualizar | Actualiza el estado completado de una tarea | - |
-| &nbsp;&nbsp;&nbsp;&nbsp;--descripcion, -d | *[Requerido]* Identificación de la tarea por hacer | ```$ node app actualizar -d "Hacer la compra"``` |
-| &nbsp;&nbsp;&nbsp;&nbsp;--completado, -c | *[Opcional - Default: True]* Marca la tarea especificada como completada o como por hacer | ```$ node app actualizar -d "Hacer la compra" -c``` // ```$ node app actualizar -d "Hacer la compra" -c false``` |
+| crear | Create an element ToDo with a default false status | - |
+| &nbsp;&nbsp;&nbsp;&nbsp;--descripcion, -d | *[Required]* Task ToDo identifier | ```$ node app crear -d "Buy bread"``` |
+| actualizar | Update the completed status of a task | - |
+| &nbsp;&nbsp;&nbsp;&nbsp;--descripcion, -d | *[Required]* Task ToDo identifier | ```$ node app actualizar -d "Buy bread"``` |
+| &nbsp;&nbsp;&nbsp;&nbsp;--completado, -c | *[Opcional - Default: True]* Set the specified task as completed or ToDo | ```$ node app actualizar -d "Buy bread" -c``` // ```$ node app actualizar -d "Buy bread" -c false``` |
